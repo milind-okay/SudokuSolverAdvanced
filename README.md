@@ -1,0 +1,3 @@
+# SudokuSolverAdvanced
+minSDK = 9
+
