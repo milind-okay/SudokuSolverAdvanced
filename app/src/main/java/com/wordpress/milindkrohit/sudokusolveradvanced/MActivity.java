@@ -104,6 +104,16 @@ public class MActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        for(int i=0;i<9;i++){
+            for(int j=0;j<9;j++){
+                outState.putString("row" + i + "col" + j,A[i][j].getText().toString());
+            }
+        }
+
+    }
 
     private void init() {
 
@@ -253,7 +263,7 @@ public class MActivity extends AppCompatActivity {
                     mk[i][j] = 0;
             }
         }
-        if (checkInput(mk) == true) {
+        if (checkInput(mk)) {
             sudo(mk, 0, 0);
             for (int i = 0; i < 9; i++) {
                 for (int j = 0; j < 9; j++) {
