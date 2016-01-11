@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="activity_vertical_margin">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="box_size">218dp</dimen>
+    <dimen name="col_size">70dp</dimen>
+    <dimen name="col_height">70dp</dimen>
+    <dimen name="outer_frame">670dp</dimen>
+    <dimen name="box_size_l">190dp</dimen>
+    <dimen name="col_size_l">70dp</dimen>
+    <dimen name="col_height_l">70dp</dimen>
+    <dimen name="outer_frame_l">560dp</dimen>
+</resources>

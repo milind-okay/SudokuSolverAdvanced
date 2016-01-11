@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sudoku Solver Advanced</string>
+    <string name="action_settings">About</string>
+    <string name="action_contact">Contact Us</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1615457502948469/9895526433</string>
+    <string name="ad_Interstitial">ca-app-pub-1615457502948469/3848992834</string>
+    <string name="ad_about">ca-app-pub-1615457502948469/7193275232</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="action_rateus">Rate this App</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_help">help</string>
+    <string name="app_v">1.01</string>
+    <string name="about_d">Sudoku Solver Advanced \n
+        with this you can solve all 9x9 grid sudoku puzzles on your phone fast and easily. Just enter values according to the problem and click "Result" button.\n
+    -Nice UI and controls are placed for optimal use.
+    </string>
+
+</resources>
